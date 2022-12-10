@@ -5,6 +5,7 @@ import Navbar from "./Shared/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import MySkills from "./Sections/MySkills/MySkills";
+import AboutMe from "./Sections/AboutMe/AboutMe";
 
 function App() {
   AOS.init();
@@ -35,6 +36,7 @@ function App() {
       <HomeBanner></HomeBanner>
       <MyProjects></MyProjects>
       <MySkills></MySkills>
+      <AboutMe></AboutMe>
     </div>
   );
 }

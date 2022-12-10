@@ -31,19 +31,21 @@ const Navbar = () => {
                   Home
                 </a>
               </li>
+
               <li>
-                <a href="/" className="text-xl font-semibold">
-                  About Me
+                <a href=" #project" className="text-xl font-semibold">
+                  My Project
                 </a>
               </li>
+
               <li>
                 <a href="#skills" className="text-xl font-semibold">
                   My Skills
                 </a>
               </li>
               <li>
-                <a href=" #project" className="text-xl font-semibold">
-                  My Project
+                <a href="aboutMe" className="text-xl font-semibold">
+                  About Me
                 </a>
               </li>
               <li>
@@ -76,8 +78,8 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="/" className="text-xl font-semibold">
-                About Me
+              <a href="#project" className="text-xl font-semibold">
+                My Project
               </a>
             </li>
             <li>
@@ -86,8 +88,8 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#project" className="text-xl font-semibold">
-                My Project
+              <a href="#aboutMe" className="text-xl font-semibold">
+                About Me
               </a>
             </li>
             <li>

@@ -2,7 +2,7 @@ import React from "react";
 
 const MySkills = () => {
   return (
-    <div className="font-serif my-5 md:mx-32 mx-5" id="skills">
+    <div className="font-serif my-5 md:mb-20 md:mx-32 mx-5" id="skills">
       <h1 className="text-5xl text-center">My Skills</h1>
       <h1 className="text-xl text-center">
         Here are some Skills and Tools what i know

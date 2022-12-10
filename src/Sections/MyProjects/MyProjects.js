@@ -24,23 +24,19 @@ const MyProjects = () => {
     },
   ];
   return (
-    <div className="font-serif my-5 md:mx-32" id="project">
+    <div className="font-serif my-5 md:mb-20 md:mx-32" id="project">
       <h1 className="text-5xl text-center">My Projects</h1>
       <h1 className="text-xl text-center">
         Here are some projects, <br /> If you want see more please visit my
         GitHub
       </h1>
 
-      <div
-        className="grid md:grid-cols-3 mx-3 md:mx-0  gap-5 my-5  relative aos-init aos-animate"
-        data-aos="zoom-in-up"
-        data-aos-duration="1500"
-      >
+      <div className="grid md:grid-cols-3 mx-3 md:mx-0  gap-5 my-5 ">
         {projects.map((project) => (
           <div
             className="card md:w-96 bg-base-100 shadow-xl  relative aos-init aos-animate"
             data-aos="zoom-in-up"
-            data-aos-duration="1000"
+            data-aos-duration="1500"
           >
             <figure className="transition-transform duration-500 transform ease-in-out hover:scale-110">
               <img src={project.img} alt="Shoes" />
