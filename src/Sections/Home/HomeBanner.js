@@ -8,8 +8,8 @@ import { MdEmail } from "react-icons/md";
 
 const HomeBanner = () => {
   return (
-    <div style={{ backgroundImage: `url(${bg})` }} className="mt-5">
-      <div className="hero min-h-screen ">
+    <div style={{ backgroundImage: `url(${bg})` }} className="pt-5 " id="home">
+      <div className="hero min-h-screen mt-20 md:mt-0">
         <div className="hero-content flex-col lg:flex-row">
           <div className="text-center text-white lg:text-left ">
             <h1 className="text-5xl font-bold font-serif">
@@ -29,7 +29,7 @@ const HomeBanner = () => {
                 wrapper="p"
               />
             </h2>
-            <p className="py-6 text-xl">
+            <p className="py-6 text-xl font-mono">
               Highly motivated with a Basic understanding of web development,
               also doing Bachelor of Science in Computer Science and
               Engineering. Who is ready to take challenges. I believe that
@@ -52,7 +52,7 @@ const HomeBanner = () => {
               </div>
             </div>
           </div>
-          <div className="card flex-shrink-0 w-full max-w-sm ml-14 bg-base-200 shadow-2xl ">
+          <div className="card flex-shrink-0 w-full max-w-sm md:ml-14 bg-base-200 shadow-2xl ">
             <img src={img} alt="" />
           </div>
         </div>

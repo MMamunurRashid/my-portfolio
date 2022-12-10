@@ -2,9 +2,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="navbar bg-base-100 justify-between">
-        <div className="navbar-start">
+    <div className="font-serif">
+      <div className=" fixed  shadow-md  bg-slate-200 w-full z-50  py-2  md:flex md:justify-between md:items-center md:px-20 px-5 ">
+        <div className="">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -37,7 +37,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="/" className="text-xl font-semibold">
+                <a href="#skills" className="text-xl font-semibold">
                   My Skills
                 </a>
               </li>
@@ -47,7 +47,10 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="/" className="text-xl font-semibold">
+                <a
+                  href="https://drive.google.com/file/d/1MoJ-XuMi84n08jBOpDk32Mxb0EIl1Y9O/view?usp=sharing"
+                  className="text-xl font-semibold"
+                >
                   Resume
                 </a>
               </li>
@@ -60,7 +63,7 @@ const Navbar = () => {
           </div>
           <a
             href="/"
-            className="btn btn-ghost normal-case text-4xl font-serif font-bold"
+            className="btn btn-ghost normal-case md:text-4xl text-2xl font-serif font-bold"
           >
             Mamun's Portfolio
           </a>
@@ -68,7 +71,7 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a href="/" className="text-xl font-semibold">
+              <a href="#home" className="text-xl font-semibold">
                 Home
               </a>
             </li>
@@ -78,7 +81,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="/" className="text-xl font-semibold">
+              <a href="#skills" className="text-xl font-semibold">
                 My Skills
               </a>
             </li>
@@ -88,7 +91,12 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="/" className="text-xl font-semibold">
+              <a
+                href="https://drive.google.com/file/d/1MoJ-XuMi84n08jBOpDk32Mxb0EIl1Y9O/view?usp=sharing"
+                target="_blank"
+                className="text-xl font-semibold"
+                rel="noreferrer"
+              >
                 Resume
               </a>
             </li>

@@ -4,6 +4,7 @@ import MyProjects from "./Sections/MyProjects/MyProjects";
 import Navbar from "./Shared/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import MySkills from "./Sections/MySkills/MySkills";
 
 function App() {
   AOS.init();
@@ -29,10 +30,11 @@ function App() {
     anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
   });
   return (
-    <div className="mx-32">
+    <div className="">
       <Navbar></Navbar>
       <HomeBanner></HomeBanner>
       <MyProjects></MyProjects>
+      <MySkills></MySkills>
     </div>
   );
 }

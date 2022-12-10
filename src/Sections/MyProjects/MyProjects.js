@@ -1,5 +1,5 @@
 import React from "react";
-import AOS from "aos";
+
 import "aos/dist/aos.css";
 
 const MyProjects = () => {
@@ -24,7 +24,7 @@ const MyProjects = () => {
     },
   ];
   return (
-    <div className="font-serif my-5" id="project">
+    <div className="font-serif my-5 md:mx-32" id="project">
       <h1 className="text-5xl text-center">My Projects</h1>
       <h1 className="text-xl text-center">
         Here are some projects, <br /> If you want see more please visit my
@@ -32,13 +32,13 @@ const MyProjects = () => {
       </h1>
 
       <div
-        className="grid grid-cols-3 gap-5 my-5  relative aos-init aos-animate"
+        className="grid md:grid-cols-3 mx-3 md:mx-0  gap-5 my-5  relative aos-init aos-animate"
         data-aos="zoom-in-up"
-        data-aos-duration="1000"
+        data-aos-duration="1500"
       >
         {projects.map((project) => (
           <div
-            className="card w-96 bg-base-100 shadow-xl  relative aos-init aos-animate"
+            className="card md:w-96 bg-base-100 shadow-xl  relative aos-init aos-animate"
             data-aos="zoom-in-up"
             data-aos-duration="1000"
           >
@@ -48,7 +48,7 @@ const MyProjects = () => {
             <div className="card-body">
               <h2 className="card-title">{project.name}</h2>
               <p className="text-xl">{project.technology}</p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-center">
                 <a href={project.liveLink} className="btn btn-primary">
                   Live Link
                 </a>
