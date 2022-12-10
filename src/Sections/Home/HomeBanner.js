@@ -11,7 +11,7 @@ const HomeBanner = () => {
     <div style={{ backgroundImage: `url(${bg})` }} className="pt-5 " id="home">
       <div className="hero min-h-screen mt-20 md:mb-20 md:mt-0">
         <div className="hero-content flex-col lg:flex-row">
-          <div className="text-center text-justify text-white lg:text-left ">
+          <div className="md:text-center text-justify text-white lg:text-left ">
             <h1 className="md:text-5xl text-2xl font-bold font-serif">
               Hi, <br /> This is <span>Md Mamunur Rashid</span>
             </h1>

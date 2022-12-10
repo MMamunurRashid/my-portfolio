@@ -44,7 +44,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="aboutMe" className="text-xl font-semibold">
+                <a href="#aboutMe" className="text-xl font-semibold">
                   About Me
                 </a>
               </li>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="/" className="text-xl font-semibold">
+                <a href="contactMe" className="text-xl font-semibold">
                   Contact Me
                 </a>
               </li>
@@ -103,7 +103,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="/" className="text-xl font-semibold">
+              <a href="#contactMe" className="text-xl font-semibold">
                 Contact Me
               </a>
             </li>

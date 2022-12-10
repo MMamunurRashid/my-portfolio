@@ -5,12 +5,13 @@ import { FcPhone, FcHome } from "react-icons/fc";
 import { FaUserGraduate, FaGraduationCap } from "react-icons/fa";
 import { BsBookHalf } from "react-icons/bs";
 import { RiMailAddFill } from "react-icons/ri";
+import resume from "../../assets/Resume of Md Mamunur Rashid (1).pdf";
 
 const AboutMe = () => {
   return (
     <div
       style={{ backgroundImage: `url(${bg})` }}
-      className="font-serif text-white my-5 md:mb-20 md:px-32 px-5 "
+      className="font-serif text-white mt-5  md:px-32 px-5 "
       id="aboutMe"
     >
       <div
@@ -67,9 +68,13 @@ const AboutMe = () => {
                 </span>
               </p>
 
-              <button className="btn btn-outline btn-accent hover:btn-primary mt-5">
+              <a
+                href={resume}
+                target="_black"
+                className="btn btn-outline btn-accent hover:btn-primary mt-5"
+              >
                 Download My Resume
-              </button>
+              </a>
             </div>
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm md:ml-14 bg-base-200 shadow-2xl relative aos-init aos-animate">

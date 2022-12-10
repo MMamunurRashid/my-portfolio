@@ -6,6 +6,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import MySkills from "./Sections/MySkills/MySkills";
 import AboutMe from "./Sections/AboutMe/AboutMe";
+import ContactMe from "./Sections/ContactMe/ContactMe";
+import { Toaster } from "react-hot-toast";
+import Footer from "./Shared/Footer";
 
 function App() {
   AOS.init();
@@ -37,6 +40,9 @@ function App() {
       <MyProjects></MyProjects>
       <MySkills></MySkills>
       <AboutMe></AboutMe>
+      <ContactMe></ContactMe>
+      <Footer></Footer>
+      <Toaster />
     </div>
   );
 }
