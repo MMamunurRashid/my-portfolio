@@ -1,14 +1,11 @@
 import "./App.css";
-import HomeBanner from "./Sections/Home/HomeBanner";
-import MyProjects from "./Sections/MyProjects/MyProjects";
-import Navbar from "./Shared/Navbar";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
-import MySkills from "./Sections/MySkills/MySkills";
-import AboutMe from "./Sections/AboutMe/AboutMe";
-import ContactMe from "./Sections/ContactMe/ContactMe";
+
 import { Toaster } from "react-hot-toast";
-import Footer from "./Shared/Footer";
+import { RouterProvider } from "react-router-dom";
+import router from "./Route/Routes";
 
 function App() {
   AOS.init();
@@ -35,13 +32,7 @@ function App() {
   });
   return (
     <div className="">
-      <Navbar></Navbar>
-      <HomeBanner></HomeBanner>
-      <MyProjects></MyProjects>
-      <MySkills></MySkills>
-      <AboutMe></AboutMe>
-      <ContactMe></ContactMe>
-      <Footer></Footer>
+      <RouterProvider router={router}></RouterProvider>
       <Toaster />
     </div>
   );

@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 
 const HomeBanner = () => {
   return (
-    <div style={{ backgroundImage: `url(${bg})` }} className="pt-5 " id="home">
+    <div style={{ backgroundImage: `url(${bg})` }} className="pt-5 ">
       <div className="hero min-h-screen mt-20 md:mb-20 md:mt-0">
         <div className="hero-content flex-col lg:flex-row">
           <div className="md:text-center text-justify text-white lg:text-left ">

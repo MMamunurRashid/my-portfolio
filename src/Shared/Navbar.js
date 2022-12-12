@@ -27,37 +27,37 @@ const Navbar = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="/" className="text-xl font-semibold">
+                <a href="/" className="text-lg font-semibold">
                   Home
                 </a>
               </li>
 
               <li>
-                <a href=" #project" className="text-xl font-semibold">
+                <a href=" #project" className="text-lg font-semibold">
                   My Project
                 </a>
               </li>
 
               <li>
-                <a href="#skills" className="text-xl font-semibold">
+                <a href="#skills" className="text-lg font-semibold">
                   My Skills
                 </a>
               </li>
               <li>
-                <a href="#aboutMe" className="text-xl font-semibold">
+                <a href="#aboutMe" className="text-lg font-semibold">
                   About Me
                 </a>
               </li>
               <li>
                 <a
                   href="https://drive.google.com/file/d/1MoJ-XuMi84n08jBOpDk32Mxb0EIl1Y9O/view?usp=sharing"
-                  className="text-xl font-semibold"
+                  className="text-lg font-semibold"
                 >
                   Resume
                 </a>
               </li>
               <li>
-                <a href="contactMe" className="text-xl font-semibold">
+                <a href="contactMe" className="text-lg font-semibold">
                   Contact Me
                 </a>
               </li>
@@ -65,7 +65,7 @@ const Navbar = () => {
           </div>
           <a
             href="/"
-            className="btn btn-ghost normal-case md:text-4xl text-2xl font-serif font-bold"
+            className="btn btn-ghost normal-case md:text-3xl text-2xl font-serif font-bold"
           >
             Mamun's Portfolio
           </a>
@@ -73,22 +73,22 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a href="#home" className="text-xl font-semibold">
+              <a href="/" className="text-lg font-semibold">
                 Home
               </a>
             </li>
             <li>
-              <a href="#project" className="text-xl font-semibold">
+              <a href="#project" className="text-lg font-semibold">
                 My Project
               </a>
             </li>
             <li>
-              <a href="#skills" className="text-xl font-semibold">
+              <a href="#skills" className="text-lg font-semibold">
                 My Skills
               </a>
             </li>
             <li>
-              <a href="#aboutMe" className="text-xl font-semibold">
+              <a href="#aboutMe" className="text-lg font-semibold">
                 About Me
               </a>
             </li>
@@ -96,14 +96,14 @@ const Navbar = () => {
               <a
                 href="https://drive.google.com/file/d/1MoJ-XuMi84n08jBOpDk32Mxb0EIl1Y9O/view?usp=sharing"
                 target="_blank"
-                className="text-xl font-semibold"
+                className="text-lg font-semibold"
                 rel="noreferrer"
               >
                 Resume
               </a>
             </li>
             <li>
-              <a href="#contactMe" className="text-xl font-semibold">
+              <a href="#contactMe" className="text-lg font-semibold">
                 Contact Me
               </a>
             </li>

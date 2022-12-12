@@ -1,28 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const MyProjects = () => {
-  const projects = [
-    {
-      img: "https://i.ibb.co/7jCryNg/Doctors-portal.jpg",
-      name: "Doctors Portal",
-      technology: "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
-      liveLink: "https://doctors-portal-254e6.web.app/",
-    },
-    {
-      img: "https://i.ibb.co/SVxDYZq/Recycle-Clothes.jpg",
-      name: "Recycle Clothes",
-      technology: "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
-      liveLink: "https://recycle-clothe.web.app/",
-    },
-    {
-      img: "https://i.ibb.co/Jj7MJrS/Smile-Photography.jpg",
-      name: "Smile Photography",
-      technology: "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
-      liveLink: "https://smile-photography-df416.web.app/",
-    },
-  ];
+  const [projects, setProjects] = useState([]);
+  // console.log(projects);
+  useEffect(() => {
+    fetch("projects.json")
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
+  }, []);
   return (
     <div className="font-serif my-5 md:mb-20 md:mx-32" id="project">
       <h1 className="text-5xl text-center">My Projects</h1>
@@ -44,10 +32,20 @@ const MyProjects = () => {
             <div className="card-body">
               <h2 className="card-title">{project.name}</h2>
               <p className="text-xl">{project.technology}</p>
-              <div className="card-actions justify-center">
-                <a href={project.liveLink} className="btn btn-primary">
-                  Live Link
-                </a>
+              <div className="flex justify-between">
+                <div className="">
+                  <a href={project.liveLink} className="btn btn-primary">
+                    Live Link
+                  </a>
+                </div>
+                <div className="">
+                  <Link
+                    to={`/project/${project.id}`}
+                    className="btn btn-primary"
+                  >
+                    View Details
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
