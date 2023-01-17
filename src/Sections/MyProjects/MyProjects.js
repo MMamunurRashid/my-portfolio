@@ -35,29 +35,29 @@ const MyProjects = () => {
               <p className="text-xl">{project.technology}</p>
               <div className="flex justify-between">
                 <div className="">
-                  <Link
+                  <a
                     className="btn btn-outline btn-xs px-1"
-                    to={project.liveLink}
+                    href={project.liveLink}
                   >
                     <BiLinkExternal className="mr-1 w-5 h-5 " /> Live Link
-                  </Link>
+                  </a>
                 </div>
                 <div>
-                  <Link
+                  <a
                     className=" btn btn-outline btn-xs px-1 "
-                    to={project.liveLink}
+                    href={project.client}
                   >
                     <BsGithub className="mr-1 w-5 h-5 " />
                     Client
-                  </Link>
+                  </a>
                 </div>
                 <div>
-                  <Link
+                  <a
                     className=" btn btn-outline btn-xs px-1"
-                    to={project.liveLink}
+                    href={project.server}
                   >
                     <BsGithub className="mr-1 w-5 h-5 " /> Server
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

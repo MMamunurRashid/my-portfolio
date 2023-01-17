@@ -5,7 +5,7 @@ import { FcPhone, FcHome } from "react-icons/fc";
 import { FaUserGraduate, FaGraduationCap } from "react-icons/fa";
 import { BsBookHalf } from "react-icons/bs";
 import { RiMailAddFill } from "react-icons/ri";
-import resume from "../../assets/Resume of Md Mamunur Rashid (1).pdf";
+import resume from "../../assets/Resume of Md Mamunur Rashid.pdf";
 
 const AboutMe = () => {
   return (

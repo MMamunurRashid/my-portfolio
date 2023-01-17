@@ -1,4 +1,27 @@
 import React from "react";
+import redux from "../../assets/5848309bcef1014c0b5e4a9a.png";
+import nextJs from "../../assets/800px-Nextjs-logo.svg.png";
+import expressJs from "../../assets/Status_iucn_EX_icon.svg.png";
+import materialUi from "../../assets/meterialui.png";
+import react from "../../assets/React-icon.svg.png";
+import JavaScript from "../../assets/javascript-logo-transparent-logo-javascript-images-3.png";
+import nodeJs from "../../assets/nodejs-logo-FBE122E377-seeklogo.com.png";
+import mongoDB from "../../assets/MongoDB_Logo.svg";
+import Bootstrap from "../../assets/Bootstrap_logo.svg.png";
+import Tailwind from "../../assets/Tailwind_CSS_Logo.svg.png";
+import TypeScript from "../../assets/typescript-2.svg";
+import css from "../../assets/CSS3_logo.svg.png";
+import Html from "../../assets/html-1.svg";
+import c from "../../assets/C_Logo.png";
+import cpp from "../../assets/ISO_C++_Logo.svg.png";
+import csharp from "../../assets/csharp.png";
+import java from "../../assets/java.png";
+import sql from "../../assets/sql.png";
+import dsa from "../../assets/dsa.png";
+import netlify from "../../assets/netlify-logo-png-transparent.png";
+import vercel from "../../assets/vercel-icon-512x449-3422jidz.png";
+import gitHub from "../../assets/github-logo.png";
+import firebase from "../../assets/firebase.png";
 
 const MySkills = () => {
   return (
@@ -8,87 +31,124 @@ const MySkills = () => {
         Here are some Skills and Tools what i know
       </h1>
 
-      <div className="flex justify-center">
+      <div className=" ">
         <div
-          className="grid md:grid-cols-5  grid-cols-3 gap-10 my-5"
+          className="grid md:grid-cols-4  grid-cols-3 gap-5 my-5 relative aos-init aos-animate"
           data-aos="zoom-in-up"
           data-aos-duration="2000"
         >
-          <img
-            src="https://static.javatpoint.com/images/javascript/javascript_logo.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://miro.medium.com/max/512/1*doAg1_fMQKWFoub-6gwUiQ.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/29/29165.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://miro.medium.com/max/1200/0*7AHKqhGVaDWZJ1L_.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/174/174854.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
-          <img
-            src="https://keytotech.com/wp-content/uploads/2019/05/firebase.png"
-            alt=""
-            className="md:w-24 md:h-24 w-20 h-20 relative aos-init aos-animate"
-          />
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img
+              src={JavaScript}
+              alt=""
+              className="md:w-28 md:h-20 w-20 h-20 "
+            />
+            <h1>JavaScript</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={react} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>React.Js</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={nodeJs} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>Node.Js</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={mongoDB} alt="" className="md:w-24 md:h-24 w-20 h-20 " />
+            <h1>MongoDB</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img
+              src={TypeScript}
+              alt=""
+              className="md:w-24 md:h-24 w-20 h-20 "
+            />
+            <h1>TypeScript</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={redux} alt="" className="md:w-24 md:h-24 w-20 h-20 " />
+            <h1>Redux</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={nextJs} alt="" className="md:w-24 md:h-24 w-20 h-20 " />
+            <h1>Next.Js</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img
+              src={expressJs}
+              alt=""
+              className="md:w-24 md:h-24 w-20 h-20 "
+            />
+            <h1>Express.Js</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img
+              src={Bootstrap}
+              alt=""
+              className="md:w-20 md:h-20 w-20 h-20 "
+            />
+            <h1>Bootstrap</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={Tailwind} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>Tailwind</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img
+              src={materialUi}
+              alt=""
+              className="md:w-20 md:h-20 w-20 h-20 "
+            />
+            <h1>Material UI</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={css} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>CSS</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={Html} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>HTML</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={c} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>C</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={cpp} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>C++</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={csharp} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>C#</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={java} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>Java</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={sql} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>SQL</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={dsa} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>Data Structure Algorithm</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={firebase} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>Firebase</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={netlify} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>Netlify</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={vercel} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>Vercel</h1>
+          </div>
+          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-2xl rounded-xl">
+            <img src={gitHub} alt="" className="md:w-20 md:h-20 w-20 h-20 " />
+            <h1>GitHub</h1>
+          </div>
         </div>
       </div>
     </div>
