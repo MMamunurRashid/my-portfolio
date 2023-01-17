@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-
 import "aos/dist/aos.css";
+import { BiLinkExternal } from "react-icons/bi";
+import { BsGithub } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const MyProjects = () => {
@@ -34,16 +35,28 @@ const MyProjects = () => {
               <p className="text-xl">{project.technology}</p>
               <div className="flex justify-between">
                 <div className="">
-                  <a href={project.liveLink} className="btn btn-primary">
-                    Live Link
-                  </a>
-                </div>
-                <div className="">
                   <Link
-                    to={`/project/${project.id}`}
-                    className="btn btn-primary"
+                    className="btn btn-outline btn-xs px-1"
+                    to={project.liveLink}
                   >
-                    View Details
+                    <BiLinkExternal className="mr-1 w-5 h-5 " /> Live Link
+                  </Link>
+                </div>
+                <div>
+                  <Link
+                    className=" btn btn-outline btn-xs px-1 "
+                    to={project.liveLink}
+                  >
+                    <BsGithub className="mr-1 w-5 h-5 " />
+                    Client
+                  </Link>
+                </div>
+                <div>
+                  <Link
+                    className=" btn btn-outline btn-xs px-1"
+                    to={project.liveLink}
+                  >
+                    <BsGithub className="mr-1 w-5 h-5 " /> Server
                   </Link>
                 </div>
               </div>
