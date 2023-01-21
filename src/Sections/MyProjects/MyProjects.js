@@ -27,16 +27,16 @@ const MyProjects = () => {
             data-aos="zoom-in-up"
             data-aos-duration="1500"
           >
-            <figure className="transition-transform duration-500 transform ease-in-out hover:scale-110">
-              <img src={project.img} alt="Shoes" />
+            <figure className="transition-transform duration-500 transform ease-in-out hover:scale-110 hover:opacity-40">
+              <img className="h-[200px]" src={project.img} alt="" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">{project.name}</h2>
-              <p className="text-xl">{project.technology}</p>
+              <p className="text-xl">Technology: {project.technology}</p>
               <div className="flex justify-between">
                 <div className="">
                   <a
-                    className="btn btn-outline btn-xs px-1"
+                    className="btn btn-outline btn-xs px-1 transition-transform duration-500 transform ease-in-out hover:scale-110"
                     href={project.liveLink}
                   >
                     <BiLinkExternal className="mr-1 w-5 h-5 " /> Live Link
@@ -44,21 +44,25 @@ const MyProjects = () => {
                 </div>
                 <div>
                   <a
-                    className=" btn btn-outline btn-xs px-1 "
+                    className=" btn btn-outline btn-xs px-1 transition-transform duration-500 transform ease-in-out hover:scale-110 "
                     href={project.client}
                   >
                     <BsGithub className="mr-1 w-5 h-5 " />
                     Client
                   </a>
                 </div>
-                <div>
-                  <a
-                    className=" btn btn-outline btn-xs px-1"
-                    href={project.server}
-                  >
-                    <BsGithub className="mr-1 w-5 h-5 " /> Server
-                  </a>
-                </div>
+                {project.server ? (
+                  <div>
+                    <a
+                      className=" btn btn-outline btn-xs px-1 transition-transform duration-500 transform ease-in-out hover:scale-110"
+                      href={project.server}
+                    >
+                      <BsGithub className="mr-1 w-5 h-5 " /> Server
+                    </a>
+                  </div>
+                ) : (
+                  <></>
+                )}
               </div>
             </div>
           </div>
