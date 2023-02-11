@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import { Toaster } from "react-hot-toast";
 import { RouterProvider } from "react-router-dom";
 import router from "./Route/Routes";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   AOS.init();
@@ -34,6 +35,7 @@ function App() {
     <div className="">
       <RouterProvider router={router}></RouterProvider>
       <Toaster />
+      <ScrollToTop smooth color="#6f00ff" width="38" height="30" />
     </div>
   );
 }

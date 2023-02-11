@@ -33,125 +33,209 @@ const MySkills = () => {
       </h1>
 
       <div className=" ">
-        <div
-          className="grid md:grid-cols-4  grid-cols-3 gap-5 my-5 relative aos-init aos-animate"
-          data-aos="zoom-in-up"
-          data-aos-duration="2000"
-        >
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
+        <div className="grid md:grid-cols-4  grid-cols-2 gap-5 my-5 ">
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <img
               src={JavaScript}
               alt=""
-              className="md:w-24 md:h-16 w-20 h-20 "
+              className="md:w-16 md:h-16 w-14 h14 "
             />
             <h1>JavaScript</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={react} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={react} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>React.Js</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={nodeJs} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={nodeJs} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>Node.Js</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={mongoDB} alt="" className="md:w-24 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={mongoDB} alt="" className="md:w-24 md:h-16 w-14 h14 " />
             <h1>MongoDB</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <img
               src={TypeScript}
               alt=""
-              className="md:w-16 md:h-16 w-20 h-20 "
+              className="md:w-16 md:h-16 w-14 h14 "
             />
             <h1>TypeScript</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={redux} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={redux} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>Redux</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={nextJs} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={nextJs} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>Next.Js</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img
-              src={expressJs}
-              alt=""
-              className="md:w-16 md:h-16 w-20 h-20 "
-            />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={expressJs} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>Express.Js</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img
-              src={Bootstrap}
-              alt=""
-              className="md:w-16 md:h-16 w-20 h-20 "
-            />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={Bootstrap} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>Bootstrap</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={Tailwind} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={Tailwind} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>Tailwind</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
             <img
               src={materialUi}
               alt=""
-              className="md:w-16 md:h-16 w-20 h-20 "
+              className="md:w-16 md:h-16 w-14 h14 "
             />
             <h1>Material UI</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={css} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={css} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>CSS</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={Html} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={Html} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>HTML</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={c} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={c} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>C</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={cpp} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={cpp} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>C++</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={csharp} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={csharp} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>C#</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={java} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={java} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>Java</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={sql} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={sql} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>SQL</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={dsa} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={dsa} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>Data Structure Algorithm</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={firebase} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={firebase} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>Firebase</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={netlify} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={netlify} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>Netlify</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={vercel} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={vercel} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>Vercel</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={gitHub} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={gitHub} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>GitHub</h1>
           </div>
-          <div className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif text-xl rounded-xl">
-            <img src={jwt} alt="" className="md:w-16 md:h-16 w-20 h-20 " />
+          <div
+            className="flex justify-between items-center transition-transform duration-500 transform ease-in-out hover:scale-105 shadow-lg px-4 py-2 font-serif md:text-xl rounded-xl relative aos-init aos-animate"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          >
+            <img src={jwt} alt="" className="md:w-16 md:h-16 w-14 h14 " />
             <h1>JSON Web Token</h1>
           </div>
         </div>

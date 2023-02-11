@@ -1,32 +1,42 @@
 import React from "react";
-import Typical from "react-typical";
 import bg from "../../assets/photo-1480506132288-68f7705954bd.jpg";
-import img from "../../assets/WhatsApp_Image_2022-04-20_at_11.52.28_PM-removebg-preview (2).png";
-
+import img1 from "../../assets/mamun.png";
+import "./HomeBanner.css";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { TypeAnimation } from "react-type-animation";
+import expressJs from "../../assets/Status_iucn_EX_icon.svg.png";
+import react from "../../assets/React-icon.svg.png";
+import JavaScript from "../../assets/javascript-logo-transparent-logo-javascript-images-3.png";
+import nodeJs from "../../assets/nodejs-logo-FBE122E377-seeklogo.com.png";
+import mongoDB from "../../assets/mongodb.png";
+import Bootstrap from "../../assets/Bootstrap_logo.svg.png";
+import Tailwind from "../../assets/Tailwind_CSS_Logo.svg.png";
+import gitHub from "../../assets/github-logo.png";
 
 const HomeBanner = () => {
   return (
     <div style={{ backgroundImage: `url(${bg})` }} className="pt-5 ">
       <div className="hero min-h-screen mt-20 md:mb-20 md:mt-0">
-        <div className="hero-content flex-col lg:flex-row">
-          <div className="md:text-center text-justify text-white lg:text-left ">
+        <div className="hero-content flex-col lg:flex-row ">
+          <div className="md:text-center text-justify text-white lg:text-left  md:w-1/2">
             <h1 className="md:text-5xl text-2xl font-bold font-serif">
-              Hi, <br /> This is <span>Md Mamunur Rashid</span>
+              Hi, <br />{" "}
+              <span className="md:text-3xl">This is Md Mamunur Rashid</span>
             </h1>
             <h2 className="md:text-5xl text-2xl font-bold font-serif text-[#ecdd9a]">
-              <Typical
-                steps={[
-                  "Junior Web Developer.",
-                  1500,
-                  "Front-End Web Developer.",
-                  1500,
-                  "MERN Stack Developer.",
-                  1500,
+              <TypeAnimation
+                sequence={[
+                  "Junior Web Developer",
+                  1000,
+                  "Front-End Developer",
+                  1000,
+                  "MERN Stack Developer",
+                  1000,
                 ]}
-                loop={Infinity}
-                wrapper="p"
+                speed={40}
+                wrapper="h2"
+                repeat={Infinity}
               />
             </h2>
             <p className="py-6 text-xl font-mono">
@@ -61,9 +71,41 @@ const HomeBanner = () => {
               </div>
             </div>
           </div>
-          <div className="card flex-shrink-0 w-full max-w-sm md:ml-14 bg-base-200 shadow-2xl ">
-            <img src={img} alt="" />
-          </div>
+          <section class="main-container md:w-1/2">
+            <div class="main">
+              <div class="big-circle">
+                <div class="icon-block">
+                  <img src={Bootstrap} alt="web design icon" />
+                </div>
+                <div class="icon-block">
+                  <img src={expressJs} alt="game design icon" />
+                </div>
+                <div class="icon-block">
+                  <img src={react} alt="game dev icon" />
+                </div>
+                <div class="icon-block">
+                  <img src={nodeJs} alt="ui-ux icon" />
+                </div>
+              </div>
+              <div class="circle">
+                <div class="icon-block">
+                  <img src={mongoDB} alt="app icon" />
+                </div>
+                <div class="icon-block">
+                  <img src={JavaScript} alt="blockchain icon" />
+                </div>
+                <div class="icon-block">
+                  <img src={Tailwind} alt="ar-vr icon" />
+                </div>
+                <div class="icon-block">
+                  <img src={gitHub} alt="artificial intelligence icon" />
+                </div>
+              </div>
+              <div class="center-logo ">
+                <img src={img1} alt="logo" />
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </div>
