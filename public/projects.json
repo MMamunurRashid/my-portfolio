@@ -1,5 +1,14 @@
 [
   {
+    "id": "11",
+    "img": "https://i.ibb.co/J3pLhWT/craft-hub-dp.png",
+    "name": "Craft Hub",
+    "technology": "React, Nodejs, Express, MongoDB, TailwindCSS, Firebase, JWT etc.",
+    "liveLink": "https://craft-hub.web.app/",
+    "client": "https://github.com/MMamunurRashid/Craft-Hub/tree/main/prcticum-project-client",
+    "server": "https://github.com/MMamunurRashid/Craft-Hub/tree/main/practicum-project-server"
+  },
+  {
     "id": "1",
     "img": "https://i.ibb.co/mRBQWNd/foodo.png",
     "name": "Foodo",
